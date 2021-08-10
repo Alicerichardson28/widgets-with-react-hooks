@@ -30,6 +30,10 @@ const options = [
     {
         label: 'A Shade of Blue',
         value: 'blue'
+    },
+    {
+        label: 'A Shade of Blue',
+        value: 'blue'
     }
 ]
 
@@ -37,6 +41,7 @@ export default () => {
     const [selected, setSelected] = useState(options[0])
     return (
         <div>
+
             {/* <Accordion items={items}/> */}
             {/* <Search /> */}
             <Dropdown 
